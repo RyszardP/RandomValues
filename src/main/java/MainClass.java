@@ -11,10 +11,10 @@ public class MainClass {
             studentsList.add(Student.createStudent());
         }
 
-        for (int i = 0; i < studentsList.size(); i++){
-            System.out.println("name " + studentsList.get(i).getName() + " second name " + studentsList.get(i).getSecondName() );
+        for (int i = 0; i < studentsList.size(); i++) {
+            System.out.println("name: " + studentsList.get(i).getName() +
+                    ", second name: " + studentsList.get(i).getSecondName());
         }
-        System.out.println();
 
 
     }
